@@ -5,23 +5,23 @@ body {
 	font-family: Lato, sans-serif;
 }
 
-.block-title {
+.title {
 	width: 500px;
 	margin: 0 auto;
 	display: block;
 	text-align: right;
 }
 
-.block-title__image {
+.title__image {
 	width: 100%;
 }
 
-.block-title__link {
+.title__link {
 	font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-	.block-title {
+	.title {
 		text-align: center;
 	}
 }
