@@ -1,27 +1,27 @@
 /* Basic Style */
-body {
+.app {
 	background-color: #f8f8f8;
 	color: #333;
 	font-family: Lato, sans-serif;
 }
 
-.title {
+.title-app {
 	width: 500px;
 	margin: 0 auto;
 	display: block;
 	text-align: right;
 }
 
-.title__image {
+.title-app__image {
 	width: 100%;
 }
 
-.title__link {
+.title-app__link {
 	font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-	.title {
+	.title-app {
 		text-align: center;
 	}
 }
@@ -72,7 +72,7 @@ button:hover {
 }
 
 /* Heading */
-.todo-title {
+.todo-app__title {
 	color: #333;
 	font-weight: 700;
 	font-size: 15px;
@@ -100,7 +100,7 @@ button:hover {
 }
 
 /* New Task */
-#todo-add > .todo-title {
+#todo-add > .todo-app-title {
 	display: block;
 	margin: 0 0 20px;
 }
