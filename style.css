@@ -127,21 +127,21 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#todo-completed .todo-app__input {
+.list#todo-completed .todo-app__input {
   text-decoration: line-through
   color: #888;
 }
 
 /* Edit Task */
-ul .list__item .todo-input {
+.list .list__item .todo-input {
   display:none
 }
 
-ul .list__item.editMode .todo-input {
+.list .list__item.editMode .todo-input {
   display:inline-block;
   width:224px
 }
 
-ul .list__item.editMode label {
+.list .list__item.editMode label {
   display:none;
 }
