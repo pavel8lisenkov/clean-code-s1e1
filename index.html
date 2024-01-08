@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Todo App</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<app-title>Todo App</app-title>
 	<link 
 	href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	<link 
@@ -10,20 +12,20 @@
 	media="screen" 
 	charset="utf-8">
 </head>
-<body>
-	<section class="title">
+<body class="app">
+	<section class="title-app">
 		<img 
-		class="title__image" 
+		class="title-app__image" 
 		src="./eisenhower-matrix.jpg" 
 		alt="eisenhower-matrix image">
 		<a 
-		class="title__link" 
+		class="title-app__link" 
 		href="https://goal-life.com/page/method/matrix-eisenhower">
 		Want more details?</a>
 	</section>
-	<section class="todo-app">
+	<section class="todo-app todo">
 		<p id="todo-add">
-			<label for="todo-add__new-task" class="todo-title">Add Item</label>
+			<label for="todo-add__new-task" class="todo-app__title">Add Item</label>
 			<div class="todo-add__wrapper">
 				<input
 				class="todo-input todo-add__input"
@@ -32,7 +34,7 @@
 				<button>Add</button>
 			</div>
 		</p>
-		<h3 class="todo-title">Todo</h3>
+		<h3 class="todo-app__title">Todo</h3>
 		<ul id="todo-list" class="list">
 			<li class="list__item">
 				<input 
@@ -66,7 +68,7 @@
 				</button>
 			</li>
 		</ul>
-		<h3 class="todo-title">Completed</h3>
+		<h3 class="todo-app__title">Completed</h3>
 		<ul id="todo-completed" class="list">
 			<li class="list__item">
 				<input 
